@@ -1,6 +1,9 @@
-package ru.javatalks.rmi;
+package client;
 
 import java.rmi.registry.*;
+
+import logic.Currency;
+import logic.RemoteCurrencyConverterService;
 
 public class HelloServiceClient {
 

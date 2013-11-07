@@ -1,8 +1,11 @@
-package ru.javatalks.rmi;
+package server;
 
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.rmi.server.*;
+
+import logic.Currency;
+import logic.RemoteCurrencyConverterService;
 
 public class RemoteCurrencyConverterServiceImpl implements
 		RemoteCurrencyConverterService {

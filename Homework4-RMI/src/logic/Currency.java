@@ -1,4 +1,4 @@
-package ru.javatalks.rmi;
+package logic;
 
 public enum Currency {
 	EUR {
